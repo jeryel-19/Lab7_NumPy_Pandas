@@ -1,0 +1,45 @@
+
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+===============================================
+
+Selected Features:
+Feature_203, Feature_262, Feature_307, Feature_318, Feature_559
+
+Bootstrap Repetitions:
+206
+
+Largest Change in Mean Difference:
+Feature: Feature_203
+Absolute Change: 0.007923
+
+Features with Changed Difference Sign:
+None
+
+Features with Changed Ranking:
+None
+
+Highest-Ranked Feature:
+Feature_203
+
+Reproducibility Verified:
+True
+
+INTERPRETATION
+--------------
+
+The analysis compared available-case analysis and median imputation
+using the full dataset.
+
+The mean differences show how Fail and Pass measurements differ
+under each preparation strategy. The bootstrap confidence intervals
+show the range of differences supported by repeated stratified
+sampling.
+
+Features with changed difference signs indicate that the direction
+of the group difference depends on the preparation method.
+Features with changed rankings indicate that the relative importance
+of some measurements also depends on the preparation method.
+
+These results demonstrate why data preparation and sampling
+stability should be considered before using statistical findings
+to support engineering decisions.
